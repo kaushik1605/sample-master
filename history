@@ -1,0 +1,219 @@
+kodavati@KODAVATI1 /c/USERS/kodavati/MyGitworkspace (master)
+$ git push origin master
+Username for 'https://github.com': Anilchowdari
+Password for 'https://Anilchowdari@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 211 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ind-hp-com/sample.git
+ * [new branch]      master -> master
+ 
+    1  ls
+    2  pwd
+    3  cd C:\git_repo
+    4  ls
+    5  git clone https://github.com/ind-hp-com/sample.git
+    6  cd c:/USERS/kodavati
+    7  ls
+    8  git clone https://github.com/ind-hp-com/sample.git MyGitworkspace
+    9  touch README
+   10  git add -a -m "first commit"
+   11  git commit -a -m "first commit"
+   12  pwd
+   13  ls
+   14  cd MyGitworkspace/
+   15  touch README
+   16  git commit -a -m "first commit"
+   17  git ststus
+   18  git status
+   19  git add README
+   20  git commit  -m "first commit"
+   21  git push origin master
+   22  history >history
+    1  ls
+    2  pwd
+    3  cd C:\git_repo
+    4  ls
+    5  git clone https://github.com/ind-hp-com/sample.git
+    6  cd c:/USERS/kodavati
+    7  ls
+    8  git clone https://github.com/ind-hp-com/sample.git MyGitworkspace
+    9  touch README
+   10  git add -a -m "first commit"
+   11  git commit -a -m "first commit"
+   12  pwd
+   13  ls
+   14  cd MyGitworkspace/
+   15  touch README
+   16  git commit -a -m "first commit"
+   17  git ststus
+   18  git status
+   19  git add README
+   20  git commit  -m "first commit"
+   21  git push origin master
+   22  history >history
+   23  git status
+   24  cat history 
+   25  vi history 
+   26  git status
+   27  git add history
+   28  git status
+   29  git commit -m "added history file"
+   30  git push -u origin master
+   31  git remote -v
+   32  git pull
+   33  git status
+   34  git branch
+   35  touch .gitignore
+   36  vi .gitignore 
+   37  git add .
+   38  git status
+   39  git commit -m '.gitignore file created to ignore log files'
+   40  history >>history
+    1  ls
+    2  pwd
+    3  cd C:\git_repo
+    4  ls
+    5  git clone https://github.com/ind-hp-com/sample.git
+    6  cd c:/USERS/kodavati
+    7  ls
+    8  git clone https://github.com/ind-hp-com/sample.git MyGitworkspace
+    9  touch README
+   10  git add -a -m "first commit"
+   11  git commit -a -m "first commit"
+   12  pwd
+   13  ls
+   14  cd MyGitworkspace/
+   15  touch README
+   16  git commit -a -m "first commit"
+   17  git ststus
+   18  git status
+   19  git add README
+   20  git commit  -m "first commit"
+   21  git push origin master
+   22  history >history
+   23  git status
+   24  cat history 
+   25  vi history 
+   26  git status
+   27  git add history
+   28  git status
+   29  git commit -m "added history file"
+   30  git push -u origin master
+   31  git remote -v
+   32  git pull
+   33  git status
+   34  git branch
+   35  touch .gitignore
+   36  vi .gitignore 
+   37  git add .
+   38  git status
+   39  git commit -m '.gitignore file created to ignore log files'
+   40  history >>history
+   41  git status
+   42  git add .
+   43  git status
+   44  vi history 
+   45  git status
+   46  git diff --cached
+   47  git diff HEAD
+   48  git commit -m 'Added .gitignore file'
+   49  git push origin master
+   50  ls
+   51  ls -al
+   52  git branch
+   53  git branch MavenProject
+   54  git pull
+   55  git status
+   56  git branch
+   57  git checkout MavenProject 
+   58  git branch
+   59  mvn -v
+   60  mvn archetype:generate -DgroupId=com -DartifactId=myproject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+   61  ls
+   62  git status
+   63  cd myproject/
+   64  ls
+   65  cd ..
+   66  mvn package
+   67  cd myproject/
+    1  pwd
+    2  cd MyGitworkspace/
+    3  ls -AL
+    4  ls -al
+    5  cd .git
+    6  cd refs/heads/
+    7  ls -al
+    8  cat MavenProject 
+    9  cd ..
+   10  ls
+   11  cd remotes/
+   12  ls
+   13  ls -al
+   14  cd origin/
+   15  ls -al
+   16  cd ..
+   17  cd ..
+   18  cd ..
+   19  cd objects/
+   20  ls
+   21  ls -al
+   22  cd &d
+   23  cd 7d
+   24  ls -al
+   25  ls
+   26  cd ..
+   27  cd ff
+   28  ls
+   29  cd ..
+   30  cd 57
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd 8c
+   35  ls
+   36  cd ..
+   37  cd ea
+   38  ls
+   39  cd ..
+   40  cd 90
+   41  ls
+   42  cd ..
+   43  cd bc
+   44  ls
+   45  cd ..
+   46  cd 03
+   47  ls
+   48  cd ..
+   49  git checkout master
+   50  cd ..
+   51  cd ..
+   52  cd ..
+   53  git checkout master
+   54  git log
+   55  git checkout 314860760ba
+   56  gitk
+   57  gitx
+   58  gitX
+   59  gitk
+   60  ls
+   61  pwd
+   62  cd MyGitworkspace/
+   63  git branch
+   64  git checkout master
+   65  git log
+   66  ls
+   67  history >> history
+   68  mvn package
+   69  git status
+   70  cd ..
+   71  git status
+   72  git add myproject/
+   73  git status
+   74  pwd
+   75  git commit -m 'new project added'
+   76  git status
+   77  git push
+   78  git push origin MavenProject 
+   79  pwd
+   80  history >> history
